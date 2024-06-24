@@ -735,9 +735,10 @@
               {
                 "to": [
                   {
-                    "key_code": "f",
+                    "key_code": "h",
                     "modifiers": [
-                      "right_control"
+                      "shift",
+                      "command"
                     ]
                   }
                 ],
