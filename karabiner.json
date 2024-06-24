@@ -735,10 +735,10 @@
               {
                 "to": [
                   {
-                    "key_code": "h",
+                    "key_code": "spacebar",
                     "modifiers": [
-                      "shift",
-                      "command"
+                      "left_shift",
+                      "left_command"
                     ]
                   }
                 ],
@@ -762,9 +762,10 @@
               {
                 "to": [
                   {
-                    "key_code": "j",
+                    "key_code": "h",
                     "modifiers": [
-                      "right_control"
+                      "left_shift",
+                      "left_command"
                     ]
                   }
                 ],

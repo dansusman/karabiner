@@ -142,11 +142,11 @@ const rules: KarabinerRules[] = [
       },
       // Magicmove via homerow.app
       m: {
-        to: [{ key_code: "h", modifiers: ["shift", "command"] }],
+        to: [{ key_code: "spacebar", modifiers: ["left_shift", "left_command"] }],
       },
       // Scroll mode via homerow.app
       s: {
-        to: [{ key_code: "j", modifiers: ["right_control"] }],
+        to: [{ key_code: "h", modifiers: ["left_shift", "left_command"] }],
       },
       d: {
         to: [{ key_code: "d", modifiers: ["right_shift", "right_command"] }],
