@@ -442,6 +442,29 @@
               {
                 "to": [
                   {
+                    "shell_command": "osascript ~/.dotfiles/defaults/togglewifi.applescript"
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "w",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_s",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "key_code": "volume_increment"
                   }
                 ],

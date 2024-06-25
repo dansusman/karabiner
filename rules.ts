@@ -74,6 +74,13 @@ const rules: KarabinerRules[] = [
 
     // s = "System"
     s: {
+      w: {
+        to: [
+          {
+            shell_command: "osascript ~/.dotfiles/defaults/togglewifi.applescript"
+          },
+        ],
+      },
       u: {
         to: [
           {
