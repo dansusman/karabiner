@@ -61,7 +61,7 @@ const rules: KarabinerRules[] = [
       g: open("https://github.com"),
       c: open("https://calendar.google.com"),
       a: open("https://chat.openai.com"),
-      m: open("https://tinyurl.com/23khv3tj"),
+      m: open("https://tinyurl.com/2vu5nm7b"),
     },
     // o = "Open" applications
     o: {
